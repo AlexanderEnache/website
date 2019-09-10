@@ -98,14 +98,15 @@ body{
 	color:white;
 }
 
+@media only screen and (max-width: 767px) {
 
-@media only screen and (max-width: 667px) {
-
-	.top-half{
-		background-color:red;
+	.content{
+		display:block;
+		width:400px;
 	}
 	
 }
+
 
 
 
