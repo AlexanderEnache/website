@@ -99,11 +99,10 @@ body{
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 667px) {
 
-	.content{
-		width: 750px;
-		height: 445px;
+	.top-half{
+		background-color:red;
 	}
 	
 }
