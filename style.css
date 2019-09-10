@@ -2,6 +2,7 @@
 body{
 	padding:0;
 	margin:0;
+	position:relative;
 }
 
 .fit-screen{
@@ -13,10 +14,10 @@ body{
 
 .top-half{
 	position:relative;
+	z-index: 1;
 	background-color:#0080ff;
 	height: 60%;
-	
-	box-shadow: 0px 3px 25px grey; 
+	box-shadow: 0px 5px 25px 10px grey
 }
 
 .bottom-half{
@@ -28,6 +29,7 @@ body{
 .content{
 	background-color:white;
 	position:absolute;
+	z-index: 2;
 	
 	padding: 0px;
 	
@@ -35,9 +37,6 @@ body{
     height: 445px;
 	
 	font-family: 'Yantramanav', sans-serif;
-	/* font-weight: 400; */
-	
-	/* border: 1px solid black; */
 	
 	top:50%;
 	left:50%;
