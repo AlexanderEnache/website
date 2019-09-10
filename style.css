@@ -1,4 +1,12 @@
 
+@media only screen and (max-width: 667px) {
+
+	.top-half{
+		background-color:red;
+	}
+	
+}
+
 body{
 	padding:0;
 	margin:0;
@@ -96,15 +104,6 @@ body{
 
 .nav-link:hover{
 	color:white;
-}
-
-
-@media only screen and (max-width: 667px) {
-
-	.top-half{
-		background-color:red;
-	}
-	
 }
 
 
